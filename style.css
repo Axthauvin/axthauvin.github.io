@@ -203,13 +203,13 @@ a{
 
 }
 
-  @media (max-width: 36em) {
+  @media (max-width: 65em) { /* Je regarde si la résolution est trop petite pour l'écran */
     .langages {
       display: block;
     }
   }
 
-  @media only screen and (hover: none) and (pointer: coarse){
+  @media only screen and (hover: none) and (pointer: coarse){ /* Je change la forme de la page si c'est une tablette ou un smartphone */
 
     .langages {
         display: block;
