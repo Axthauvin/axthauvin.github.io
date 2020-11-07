@@ -124,11 +124,11 @@ a{
     width: 400px;
     height: 400px;
 }
-.image{
+.image{ /* Ici, je met mon image au dessus du texte avec Zindex 2, et la rend possible de supperposer avec position absolute */
     z-index: 2;
     position: absolute;
 }
-@-webkit-keyframes transition {
+@-webkit-keyframes transition { /* Je créer la transition avec l'opacity, mais en double pour la rendre compatible Firefox et Chrome */
     0%   { opacity: 1; }
     100% { opacity: 0; }
     }
@@ -136,7 +136,7 @@ a{
         0%   { opacity: 1; }
         100% { opacity: 0; }
 }
-.image:hover{
+.image:hover{ /* Avec :hover, je regarde si la souris passe dessus, si c'est le cas, je lance l'animation (pour firefox et chrome) */
 
     -webkit-animation: transition 0.2s ;
     animation: transition 0.5s;
@@ -208,3 +208,11 @@ a{
       display: block;
     }
   }
+
+  @media only screen and (hover: none) and (pointer: coarse){
+
+    .langages {
+        display: block;
+      }
+    
+    }
