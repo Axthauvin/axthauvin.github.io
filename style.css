@@ -105,6 +105,11 @@ article{
 .centered{
     display: flex;
     text-align: center;
+    justify-content: center;
+}
+.centeredtextonly{
+    display: flex;
+    text-align: center;
 }
 a{
     color: black;
@@ -192,3 +197,14 @@ a{
     background-color: grey;
 
 }
+.langages{
+    display: flex;
+    justify-content: center;
+
+}
+
+  @media (max-width: 36em) {
+    .langages {
+      display: block;
+    }
+  }
