@@ -192,6 +192,49 @@ a{
     .langages {
         display: block;
       }
+
+      body {
+        overflow-x: hidden;
+    }
+    
+    .nav-links {
+        position: fixed;
+        left: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #272727;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+    }
+    
+    
+
+    .nav-links li {
+        opacity: 0;
+        color: white;
+    }
+
+    .nav-links li a{
+        
+        color: white;
+    }
+
+    
+
+    
+
+    
+
+    
+    
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
     
     }
 
