@@ -183,9 +183,53 @@ a{
 
   @media (max-width: 65em) { /* Je regarde si la résolution est trop petite pour l'écran */
     .langages {
-      display: block;
+        display: block;
+      }
+
+      body {
+        overflow-x: hidden;
     }
-  }
+    
+    .nav-links {
+        position: fixed;
+        left: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #272727;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+    }
+    
+    
+
+    .nav-links li {
+        opacity: 0;
+        color: white;
+    }
+
+    .nav-links li a{
+        
+        color: white;
+    }
+
+    
+
+    
+
+    
+
+    
+    
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+    
+}
 
   @media only screen and (hover: none) and (pointer: coarse){ /* Je change la forme de la page si c'est une tablette ou un smartphone */
 
@@ -236,7 +280,7 @@ a{
         cursor: pointer;
     }
     
-    }
+}
 
 .images-Cours{
     margin-left: -8px;
