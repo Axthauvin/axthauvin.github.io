@@ -11,44 +11,40 @@
   <body>
     <div>
       <header> <!--Ici je mets la tête de page avec le menu-->
-        <div class="Website">
-          <div class="header-iner">
-            <div class="title-nav-wrapper">
-            <div class="Title">
-              <div>
-                <a class="title-text" href="index.html">Axel Thauvin</a> <!--Ici je mets AXEL Thauvin au milieu de la page-->
-              </div>
-            </div>
-            <div class="header-nav"> <!--Ici je mets les différents menu à gauche dans un div !-->
-              <div>
-                <nav class="header-nav-list">
-                  <div class="item-menu">
-                    <a href="index.html">Page d'acceuil</a> 
-                  </div>
-                  <div class="item-menu">
-                    <a class="selected" href="Projects.html">Projets</a> <!--Selected pour que Projets soit souligné-->
-                  </div>
-                  <div class="item-menu">
-                    <a href="CV.html">Curriculum vitæ</a>
-                  </div>
-                  <div class="item-menu">
-                    <a  href="Contacts.html">Contact</a> 
-                  </div>
-                </nav>
-              </div>
-              
-          </div>
-          <div class="actions"> <!--Ici les réseaux sociaux (pour faire le buzz bien évidement)-->
-            <div class="action-social">
-              <a class="icon-fill" href="https://twitter.com" target="_blank"><img src="Images/twitter.png" alt="twitter" width="30"></a>
-              <a class="icon-fill" href="https://www.instagram.com/axthauvin/" target="_blank"><img src="Images/instagram.png" alt="instagram" width="30"></a>
-              <a class="icon-fill" href="https://youtube.com" target="_blank"><img src="Images/youtube.png" alt="youtube" width="30"></a>
-
-            </div>
-          </div>
-        </div>
-        </div>
+        
       </header>
+      <nav>
+
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Page d'acceuil</a></li>
+          <li><a class="selected" href="Projects.html">Projets</a></li>
+          <li><a href="CV.html">Curriculum vitæ</a></li>
+          <li><a href="Contacts.html">Contact</a></li>
+          <li><a href="Cours en ligne.html">Cours en ligne</a></li>
+        </ul>
+
+        <div class="title-text">
+            <h4 ><a href="index.html">Axel Thauvin</a></h4>
+        </div>
+        
+        
+
+        <div class="actions">
+          <div class="action-social"> <!--Ici je mets les différents résaux sociaux avec les href qui permettent d'accéder directement depuis le site, et le target blank_ pour ouvrir dans un nouvel onglet !-->
+            <a class="icon-fill" href="https://twitter.com/dovahkciin" target="_blank"><img src="Images/twitter.png" alt="twitter" width="30"></a>
+            <a class="icon-fill" href="https://www.instagram.com/axthauvin/" target="_blank"><img src="Images/instagram.png" alt="instagram" width="30"></a>
+            <a class="icon-fill" href="https://youtube.com" target="_blank"><img src="Images/youtube.png" alt="youtube" width="30"></a>
+
+          </div>
+        </div>
+
+    </nav>
       <main id="page">
         <article>
           <section style="min-height: 30vh; padding-top: 200px;">
@@ -115,3 +111,31 @@
       
   </body>
 </html>
+<script>
+  function navSlide() {
+
+    const burger = document.querySelector(".burger");
+    console.log(burger);
+    const nav = document.querySelector(".nav-links");
+    const navLinks = document.querySelectorAll(".nav-links li");
+    
+    burger.addEventListener("click", () => {
+        //Toggle Nav
+        nav.classList.toggle("nav-active");
+        
+        //Animate Links
+        navLinks.forEach((link, index) => {
+            if (link.style.animation) {
+                link.style.animation = ""
+            } else {
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+            }
+        });
+        //Burger Animation
+        burger.classList.toggle("toggle");
+    });
+    
+}
+
+navSlide();
+</script>
