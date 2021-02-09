@@ -197,6 +197,7 @@ a{
         position: fixed;
         left: 0px;
         height: 92vh;
+        height: -webkit-fill-available;
         top: 8vh;
         background-color: #272727;
         display: flex;
@@ -374,6 +375,7 @@ nav {
         position: fixed;
         left: 0px;
         height: 92vh;
+        height : -webkit-fill-available;
         top: 8vh;
         background-color: #272727;
         display: flex;
