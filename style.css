@@ -199,7 +199,7 @@ a{
         left: 0px;
         height: 92vh;
         /*height: -webkit-fill-available;*/
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 98);
         top: 8vh;
         background-color: #272727;
         display: flex;
@@ -378,7 +378,7 @@ nav {
         left: 0px;
         height: 92vh;
         /*height : -webkit-fill-available;*/
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 98);
         top: 8vh;
         background-color: #272727;
         display: flex;
