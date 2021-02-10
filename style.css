@@ -398,7 +398,9 @@ nav {
 
     
 
-    
+    .cardsOK .centered {
+        display: block;
+    }
 
     
 
