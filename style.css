@@ -242,9 +242,12 @@ a{
     }
     
     .nav-links {
+        font-size : 30px;
         position: fixed;
         left: 0px;
         height: 92vh;
+        /*height: -webkit-fill-available;*/
+        height: calc(var(--vh, 1vh) * 92);
         top: 8vh;
         background-color: #272727;
         display: flex;
@@ -419,6 +422,8 @@ nav {
         position: fixed;
         left: 0px;
         height: 92vh;
+        /*height : -webkit-fill-available;*/
+        height: calc(var(--vh, 1vh) * 92);
         top: 8vh;
         background-color: #272727;
         display: flex;
