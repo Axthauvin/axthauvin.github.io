@@ -242,7 +242,7 @@ a{
     }
     
     .nav-links {
-        font-size : 30px;
+        
         position: fixed;
         left: 0px;
         height: 92vh;
@@ -266,6 +266,7 @@ a{
     }
 
     .nav-links li a{
+        font-size: 30px;
         
         color: white;
     }
