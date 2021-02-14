@@ -442,6 +442,11 @@ nav {
         cursor: pointer;
     }
 
+    .burger div {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
     .element-Projets {
         display: block;
     }
@@ -510,6 +515,11 @@ nav {
         display: block;
         cursor: pointer;
     }
+
+    .burger div {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
     
 }
 
@@ -529,7 +539,7 @@ nav {
 }
 
 .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
 }
 
 .toggle .line2 {
@@ -537,7 +547,7 @@ nav {
 }
 
 .toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-6px, -6px);
 }
 
 * {
