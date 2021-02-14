@@ -336,11 +336,12 @@ nav {
     
     
     
+    
 }
 
 
 .burger div {
-    width: 25px;
+    width: 35px;
     height: 4px;
     border-radius: 8px;
     
@@ -388,7 +389,9 @@ nav {
         color: white;
     }
     .burger {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         cursor: pointer;
         
     }
@@ -445,7 +448,9 @@ nav {
     
     
     .burger {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         cursor: pointer;
     }
 
@@ -516,8 +521,11 @@ nav {
     
     
     .burger {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         cursor: pointer;
+        
     }
 
     
@@ -540,7 +548,8 @@ nav {
 }
 
 .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-13.5px, 6px);
+    background-color: #f8767a;
 }
 
 .toggle .line2 {
@@ -548,7 +557,8 @@ nav {
 }
 
 .toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-13.5px, -6px);
+    background-color: #f8767a;
 }
 
 * {
