@@ -115,7 +115,9 @@ article{
     justify-content: center;
     padding-bottom: 10px;
     padding-top: 10px;
+    min-width: 50vh;
 }
+
 section .element .centered h2 {
     padding-bottom: 15px;
 }
@@ -132,6 +134,16 @@ section .element .centered h2 {
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+.centered2 {
+    isplay: flex;
+    text-align: center;
+    justify-content: center;
+    width: 50vh;
+    height: 50vh;
+    position: relative;
+
 }
 .centeredtextonly{
     display: flex;
@@ -152,8 +164,7 @@ a{
 .elementok{
     display: flex;
     justify-content: center;
-    margin-right: 25px;
-    margin-left: 25px;
+    
     min-width: 50vh;
     
 }
@@ -227,7 +238,8 @@ a{
 .espace-article{
     display: flex;
     justify-content: center;
-    
+    margin-right: 25px;
+    margin-left: 25px;
 }
 .backgroundCV{
     background-color: white;
