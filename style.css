@@ -46,8 +46,11 @@ div{
 }
 .title-text{
     font-size: 40px;
+    font-size: auto;
     font-weight: bold;
     margin: 0px;
+    width: 34%;
+
     
 }
 .title-text h4 a{
@@ -575,7 +578,7 @@ nav {
 .coolHeader{
     background-color: #212122;
     opacity: 90%;
-    margin-bottom: 200px;
+    
     
 
     
