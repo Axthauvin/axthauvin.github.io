@@ -115,10 +115,11 @@ section .element .centered h2 {
 }
 
 .presentation{
-    font-size: 30px;
+    font-size: 3vh;
     font-weight: initial;
 }
 .presentation2{
+    font-size: 2vh;
     font-weight: initial;
 }
 .centered{
@@ -145,6 +146,8 @@ a{
 }
 .little-article h4{
     padding-top: 50px;
+    font-weight: lighter;
+    
 }
 .image{ /* Ici, je met mon image au dessus du texte avec Zindex 2, et la rend possible de supperposer avec position absolute */
     z-index: 2;
