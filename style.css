@@ -470,6 +470,8 @@ nav {
     }
     
     
+    
+    
 }
 
 @media only screen and (hover: none) and (pointer: coarse){ /* Je change la forme de la page si c'est une tablette ou un smartphone */
@@ -593,5 +595,6 @@ section {
 section div h3 {
     padding-top: 10px;
 }
+
 
 
