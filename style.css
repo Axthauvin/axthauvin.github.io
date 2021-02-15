@@ -130,6 +130,7 @@ section .element .centered h2 {
 .centeredtextonly{
     display: flex;
     text-align: center;
+    width: 50vh;
 }
 a{
     color: black;
@@ -152,6 +153,7 @@ a{
 .image{ /* Ici, je met mon image au dessus du texte avec Zindex 2, et la rend possible de supperposer avec position absolute */
     z-index: 2;
     position: absolute;
+    
 }
 @-webkit-keyframes transition { /* Je créer la transition avec l'opacity, mais en double pour la rendre compatible Firefox et Chrome */
     0%   { opacity: 1; }
