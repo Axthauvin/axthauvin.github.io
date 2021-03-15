@@ -137,7 +137,7 @@ section .element .centered h2 {
 }
 
 .centered2 {
-    isplay: flex;
+    display: flex;
     text-align: center;
     justify-content: center;
     width: 50vh;
@@ -309,6 +309,9 @@ a{
     font-weight: 200;
 
 
+}
+.titles-cat {
+    font-size : 50px;
 }
 
 .body-Scratch a {
@@ -628,6 +631,19 @@ nav {
     .Espace-cards{
         height: 60vh;
 
+    }
+
+    .body-Scratch .sub {
+        font-size: 1vh;
+    }
+    .body-Scratch h1 {
+        font-size: 2vh;
+    }
+    .body-Scratch .titles-cat {
+        font-size: 4vh;
+    }
+    .body-Scratch h3 {
+        font-size: 2vh;
     }
 
 
