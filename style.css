@@ -634,7 +634,7 @@ nav {
     }
 
     .body-Scratch .sub {
-        font-size: 1vh;
+        font-size: 1.5vh;
     }
     .body-Scratch h1 {
         font-size: 2vh;
@@ -645,6 +645,12 @@ nav {
     .body-Scratch h3 {
         font-size: 2vh;
     }
+    .body-Scratch img {
+        width: 100%;
+    }
+
+    
+
 
 
 
@@ -711,3 +717,68 @@ section {
 section div h3 {
     padding-top: 10px;
 }
+
+/* Boutons */
+
+.btn {
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    font-family: "Montserrat";
+  }
+
+  .blue {
+    background-color: #55acee;
+    box-shadow: 0px 5px 0px 0px #3C93D5;
+  }
+  .blue:hover {
+    background-color: #6FC6FF;
+  }
+  .green {
+    background-color: #2ecc71;
+    box-shadow: 0px 5px 0px 0px #15B358;
+  }
+  
+  .green:hover {
+    background-color: #48E68B;
+  }
+  .red {
+    background-color: #e74c3c;
+    box-shadow: 0px 5px 0px 0px #CE3323;
+  }
+  
+  .red:hover {
+    background-color: #FF6656;
+  }
+  
+  .purple {
+    background-color: #9b59b6;
+    box-shadow: 0px 5px 0px 0px #82409D;
+  }
+  
+  .purple:hover {
+    background-color: #B573D0;
+  }
+  
+  .orange {
+    background-color: #e67e22;
+    box-shadow: 0px 5px 0px 0px #CD6509;
+  }
+  
+  .orange:hover {
+    background-color: #FF983C;
+  }
+  
+  .yellow {
+    background-color: #f1c40f;
+    box-shadow: 0px 5px 0px 0px #D8AB00;
+  }
+  
+  .yellow:hover {
+    background-color: #FFDE29;
+  }
