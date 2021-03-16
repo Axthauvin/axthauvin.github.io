@@ -310,6 +310,15 @@ a{
 
 
 }
+
+.body-Scratch .TitlesCours {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 4vh;
+
+}
+
+
 .titles-cat {
     font-size : 50px;
 }
@@ -723,7 +732,7 @@ section div h3 {
 .btn {
     border-radius: 5px;
     padding: 15px 25px;
-    font-size: 22px;
+    font-size: 3vh;
     text-decoration: none;
     margin: 20px;
     color: #fff;
@@ -782,3 +791,10 @@ section div h3 {
   .yellow:hover {
     background-color: #FFDE29;
   }
+
+.TitlesCours {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 4vh;
+
+}
