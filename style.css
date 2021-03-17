@@ -581,6 +581,11 @@ nav {
 
 @media only screen and (hover: none) and (pointer: coarse){ /* Je change la forme de la page si c'est une tablette ou un smartphone */
 
+
+    .action-social a img {
+        width: 70%;
+    }
+
     .langages {
         display: block;
       }
@@ -654,9 +659,26 @@ nav {
     .body-Scratch h3 {
         font-size: 2vh;
     }
-    .body-Scratch img {
+    .body-Scratch p img {
         width: 100%;
     }
+
+    .body-Scratch .btn{
+        font-size: 2vh;
+    }
+    .body-Scratch .btn img {
+        height: 1.5vh;
+        padding-right: 20px;
+    }
+    .body-Scratch .TitlesCours {
+        font-size: 3vh;
+    
+    }
+    .body-Scratch #revenir {
+        margin-top: 300px;
+    
+    }
+    
 
     
 
@@ -741,6 +763,11 @@ section div h3 {
     font-family: "Montserrat";
   }
 
+  .body-Scratch .btn img {
+    height: 1.5vh;
+    padding-right: 20px;
+}
+
   .blue {
     background-color: #55acee;
     box-shadow: 0px 5px 0px 0px #3C93D5;
@@ -796,5 +823,11 @@ section div h3 {
     text-decoration: underline;
     font-weight: bold;
     font-size: 4vh;
+
+}
+
+
+#revenir {
+    margin-top: 200px;
 
 }
