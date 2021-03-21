@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"> <!--On met ici l'encodage de la page, ici UTF-8-->
+    <title>Axel Thauvin</title> <!--Ici c'est le titre de la page-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&amp;display=swap" rel="stylesheet"> <!--On importe la fpolice Raleway de GoogleFont pour avoir une police originale (ce code est généré par Google pour insérer la police) https://fonts.google.com/specimen/Raleway?preview.text=Test&preview.text_type=custom&query=Raleway-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/Axel.png">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes"/> -->
+  </head>
+  
+ 
+  <body>
+    <div>
+      <header> <!--Ici je mets la tête de page avec le menu-->
+        
+      </header>
+      <nav class = "coolHeader">
+
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+        <ul class="nav-links">
+          <li><a class="selected" href="index.html">Page d'acceuil</a></li>
+          <li><a href="Projects.html">Projets</a></li>
+          <li><a href="Cours en ligne.html">Cours en ligne</a></li>
+          <li><a href="CV.html">Curriculum vitæ</a></li>
+          <li><a href="Contacts.html">Contact</a></li>
+          
+        </ul>
+
+        <div class="title-text">
+            <h4 ><a href="index.html">Axel Thauvin</a></h4>
+        </div>
+        
+        
+
+        <div class="actions">
+          <div class="action-social"> <!--Ici je mets les différents résaux sociaux avec les href qui permettent d'accéder directement depuis le site, et le target blank_ pour ouvrir dans un nouvel onglet !-->
+            <a class="icon-fill" href="https://twitter.com/axthauvin" target="_blank"><img src="Images/twitter.png" alt="twitter" width="30"></a>
+            <a class="icon-fill" href="https://www.instagram.com/axthauvin/" target="_blank"><img src="Images/instagram.png" alt="instagram" width="30"></a>
+            <a class="icon-fill" href="https://www.youtube.com/channel/UCF6zpti-ice10f9RInxHyFA" target="_blank"><img src="Images/youtube.png" alt="youtube" width="30"></a>
+
+          </div>
+        </div>
+
+    </nav>
+      <main id="page">
+        <article>
+          <section style="min-height: 10vh; padding-top: 200px;"> <!--Je crée une nouvelle section afin d'y ajouter du contenu, ici ma "biographie"-->
+            <div class="alert" style="margin-bottom: 50px;" id="acache" onclick="cache();">
+              <span class="closebtn" onclick="this.parentElement.style.display='none';" style="font-size: 50px;">&times;</span> 
+              <span >
+                <strong>Tu es un élève et tu as besoin d'aide ?</strong> Clique ici si tu as besoin d'aide au devoir !
+              </span>
+              
+              
+            </div>
+            <div id="offres">
+              <div class="element">
+                <div class="utitle">
+                  <span class="closebtn" onclick="this.parentElement.parentElement.parentElement.style.display='none';" style="font-size: 50px;">&times;</span>
+                  Choisi ta classe
+
+                </div>
+              </div>
+
+              <div class="element"> 
+                <div class="classe">
+                  <h1>Collège</h1>
+                  <div class="centered">
+                    <div class="bouton" onclick="showformulaire();">
+                      6<sup>ème</sup>
+                    </div>
+                    <div class="bouton" onclick="showformulaire();">
+                      5<sup>ème</sup>
+                    </div>
+                    <div class="bouton" onclick="showformulaire();">
+                      4<sup>ème</sup>
+                    </div>
+                    <div class="bouton" onclick="showformulaire();">
+                      3<sup>ème</sup>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+
+              <div class="element">
+                <div class="classe">
+                  <h1>Lycée</h1>
+                  <div class="centered">
+                    <div class="bouton" onclick="showformulaire();">
+                      2<sup>nd</sup>
+                    </div>
+                    <div class="bouton" onclick="showformulaire();">
+                      1<sup>ère</sup>
+                    </div>
+                    <div class="bouton" onclick="showformulaire();">
+                      Ter
+                    </div>
+                  </div>  
+                </div>  
+              </div>
+            </div>
+
+            <div class="element" id="form">
+              <div class="sendemail">
+                <h1>Quel est votre problème ?</h1>
+                <div class="centered">
+                  <h2 style="font-style: italic; padding: 0;">Votre besoin me sera envoyé par mail, et je prendrais contact avec vous au plus vite.
+                    <div style="display: block; text-align: left; width: 100%;" class="formed">
+                      <form action="">
+                        <label for="fname">Votre E-mail</label><br>
+                        <input type="text" id="email" name="email" placeholder="exemple@gmail.com"><br>
+                        <label for="lname">Logiciel</label><br>
+                        <select name="logiciels" id="logi-select">
+                          <option value="" disabled selected>Choisissez un logiciel </option>
+                          <option value="scratch">Scratch</option>
+                          <option value="unity">Unity</option>
+                          <option value="app inventor">App Inventor</option>
+                          <option value="algorithmie">Algorithmie</option>
+                          <option value="html">HTML CSS Javascript</option>
+                          
+                      </select> <br>
+                        <label for="lname">Votre demande:</label><br>
+                        <textarea type="text" id="demande" name="demande" placeholder="en quelques lignes" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' rows="1"></textarea><br>
+                        <div class="centered">
+                          <input id="submit" type="submit" value="Submit" >
+
+                        </div>
+                        
+                      </form> 
+                    </div>  
+
+                  </h2>
+                </div>
+                
+                  
+                
+                
+                
+                
+              </div>  
+            </div>
+            
+          </section>
+          
+        
+        </article>
+        
+      </main>
+    </div>
+    
+      
+  </body>
+</html>
+<script src="Scripts/script.js"></script>

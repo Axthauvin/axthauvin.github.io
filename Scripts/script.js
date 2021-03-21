@@ -33,3 +33,17 @@ function navSlide() {
 }
 
 navSlide();
+
+function cache() {
+  var elt = document.getElementById('offres');
+  elt.style.display='block';
+  var elt = document.getElementById('acache');
+  elt.style.display='none';
+};
+
+function showformulaire(){
+  var elt = document.getElementById('form');
+  elt.style.display='block';
+  var elt = document.getElementById('offres');
+  elt.style.display='none';
+}
