@@ -290,6 +290,30 @@ a{
 
    }
 
+.body-Unity h5 {
+    font-family: 'Josefin Sans', "Raleway";
+
+}
+
+.body-Unity h1 {
+  font-family: 'Montserrat', "Raleway";
+  font-weight: 200;
+
+
+}
+.body-Unity a {
+    color: aliceblue;
+
+
+}
+
+.body-Unity .TitlesCours {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 4vh;
+
+}
+
  .body-Scratch {
      background-color: #4b96ff;
      font-family: 'Raleway','Girassol', Arial;
@@ -299,7 +323,7 @@ a{
 
   }
 
-  .body-Scratch h5 {
+.body-Scratch h5 {
       font-family: 'Josefin Sans', "Raleway";
 
 }
@@ -319,6 +343,8 @@ a{
 }
 
 
+
+
 .titles-cat {
     font-size : 50px;
 }
@@ -335,10 +361,10 @@ a{
 
 }
 
-   .body-Unity a {
+.body-Unity a {
     color: aliceblue;
 
-   }
+}
 
    .centered-article{
        display: flex;
@@ -678,6 +704,38 @@ nav {
         margin-top: 300px;
     
     }
+
+    .body-Unity .sub {
+        font-size: 1.5vh;
+    }
+    .body-Unity h1 {
+        font-size: 2vh;
+    }
+    .body-Unity .titles-cat {
+        font-size: 4vh;
+    }
+    .body-Unity h3 {
+        font-size: 2vh;
+    }
+    .body-Unity p img {
+        width: 100%;
+    }
+
+    .body-Unity .btn{
+        font-size: 2vh;
+    }
+    .body-Unity .btn img {
+        height: 1.5vh;
+        padding-right: 20px;
+    }
+    .body-Unity .TitlesCours {
+        font-size: 3vh;
+    
+    }
+    .body-Unity #revenir {
+        margin-top: 300px;
+    
+    }
     
 
     
@@ -764,6 +822,11 @@ section div h3 {
   }
 
   .body-Scratch .btn img {
+    height: 1.5vh;
+    padding-right: 20px;
+}
+
+.body-Unity .btn img {
     height: 1.5vh;
     padding-right: 20px;
 }

@@ -47,3 +47,16 @@ function showformulaire(){
   var elt = document.getElementById('offres');
   elt.style.display='none';
 }
+
+var path = window.location.pathname;
+var page = path.split("/").pop();
+console.log( page );
+if (page == "Unity%20cours%20en%20ligne.html"){
+
+  var parentWidth = (document.body.clientWidth - 50) * 70/100
+  console.log((parentWidth * document.getElementById('vid2').width / 100))
+
+
+  document.getElementById('vid1').height = (parentWidth * document.getElementById('vid2').width / 100) * 720 / 1280;
+  document.getElementById('vid2').height = (parentWidth * document.getElementById('vid2').width / 100) * 720 / 1280;
+}
