@@ -23,6 +23,8 @@ body {
     align-items: center;
 }
 
+
+
 .Title{
     order: 2;
     width: 34%;
@@ -155,6 +157,11 @@ section .element .centered h2 {
 a{
     color: black;
     text-decoration: none;
+}
+
+.gras {
+    font-weight: bold;
+    color: #252525;
 }
 .bandeau{
     z-index: 2;
@@ -1108,3 +1115,215 @@ section div h3 {
 #form {
     display: none;
 }
+
+
+
+.Front-panel {
+    background-color: #f0f0f0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-left: #000091 5px solid;
+    padding: 2rem 3rem;
+    text-align: left;
+    
+    margin: 0;
+    margin-top: 10px;
+    
+}
+
+h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 0;
+}
+
+
+
+.Front-panel p{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin: 0;
+   
+}
+
+.Front-panel .svg{
+  
+    width: 20px;
+    margin: -1rem 0 1rem -2rem;
+    fill: green;
+}
+
+
+.card {
+    background-color: #f4f5f7;
+    border: 0;
+    border-radius: 0;
+    
+}
+
+.card div {
+    
+    border: 0;
+    
+    border-radius: 0;
+    
+}
+
+.card .Front-panel {
+    border-left: #805CC1 5px solid;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+
+button {
+    cursor: pointer;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: inherit;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    min-height: 2.5rem;
+    padding: 1rem 1.5rem;
+    outline-offset: 2px;
+    outline-width: 2px;
+    margin-top: 1rem;
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+.b2 {
+    border-radius: 1rem;
+    
+}
+.Button-clair {
+    background-color: #000091;
+    color: white;
+    
+}
+
+.nocontoures-clair {
+    background-color: white;
+    color: #000091;
+    border: 2px solid;
+}
+.Button-noir {
+    background-color: #606084;
+    color: white;
+
+    
+}
+
+.nocontoures-noir {
+    background-color: white;
+    color: #606084;
+    border: 2px solid;
+}
+
+.Button-neutre {
+    background-color: #cfcece;
+    color: #7c736f;
+
+    
+}
+.nocontoures-neutre {
+    background-color: white;
+    color: #7c736f;
+    border: 2px solid;
+}
+
+.Button-dark {
+    background-color: #383838;
+    color: white;
+
+    
+}
+.nocontoures-dark {
+    background-color: white;
+    color: #1e1e1e;
+    border: 2px solid;
+}
+
+.Button-dark2 {
+    background-color: #1e1e1e;
+    color: white;
+
+    
+}
+.nocontoures-dark2 {
+    /*background-color: white; */
+    color: #1e1e1e;
+    border: 2px solid;
+}
+
+.download {
+    background-color: #2ecc71;
+    color: white;
+    
+
+}
+
+button img {
+    height: 2rem;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.svg-in-text {
+    margin: 0;
+    vertical-align: -8%;
+}
+
+.Front-panel .svg-in-text {
+    margin: 0;
+    vertical-align: -8%;
+}
+
+.card {
+    width: 75%;
+    padding: 10px;
+    background-color: #f4f5f7;
+    border: 0;
+    border-radius: 0;
+    display: block;
+    margin: 10px;
+
+}
+
+.card div {
+    border: 0;
+    border-radius: 0;
+}
+
+.card .details {
+    color: #a0a0a0;
+    text-align: left;
+}
+
+.card p{
+   color : #3d3d3d
+}
+.card .represent {
+    width: 100%;
+}
+
+
+.hori {
+    display: flex;
+}
+
+.cool-div {
+    width: fit-content;
+    padding: 10px;
+    
+    text-align: left;
+    display: block;
+    margin: 10px;
+}
+ h4 {
+     line-height: 1.2;
+ }
