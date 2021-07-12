@@ -811,16 +811,16 @@ button img {
 @media only screen and (hover: none) and (pointer: coarse){ /* Je change la forme de la page si c'est une tablette ou un smartphone */
 
     h4 {
-        font-size: 1.5vh;
-        line-height: 2vh;
+        font-size: 2vh;
+        line-height: 2;
         margin-top: 0;
     }
     
     
     
     .Front-panel p{
-        font-size: 1.25vh;
-        line-height: 2vh;
+        font-size: 1.5vh;
+        line-height: 1.5;
         margin: 0;
         
        
