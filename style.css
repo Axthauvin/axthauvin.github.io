@@ -810,6 +810,9 @@ button img {
 
 @media only screen and (hover: none) and (pointer: coarse){ /* Je change la forme de la page si c'est une tablette ou un smartphone */
 
+    .card {
+        width: 100%;
+    }
     h4 {
         font-size: 2vh;
         line-height: 2;
@@ -824,6 +827,12 @@ button img {
         margin: 0;
         
        
+    }
+
+    button {
+        font-size: 2vh;
+        min-height: 2.5vh;
+        line-height: 1.5;
     }
 
     .action-social a img {
