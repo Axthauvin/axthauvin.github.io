@@ -627,11 +627,18 @@ h4 {
    
 }
 
-.Front-panel .svg{
+.svg{
   
-    width: 20px;
+    width: 5%;
     margin: -1rem 0 1rem -2rem;
     fill: green;
+}
+
+.svg-in-text {
+    width : 3vh;
+    margin: 0;
+    vertical-align: -8%;
+    vertical-align: middle;
 }
 
 
@@ -752,15 +759,8 @@ button img {
     vertical-align: middle;
     font-weight: bold;
 }
-.svg-in-text {
-    margin: 0;
-    vertical-align: -8%;
-}
 
-.Front-panel .svg-in-text {
-    margin: 0;
-    vertical-align: -8%;
-}
+
 
 .card {
     width: 75%;
@@ -778,9 +778,14 @@ button img {
     border-radius: 0;
 }
 
+.details {
+    
+    text-align: left;
+    font-size: 1.25rem;
+}
+
 .card .details {
     color: #a0a0a0;
-    text-align: left;
 }
 
 .card p{
@@ -810,6 +815,9 @@ button img {
 
 @media only screen and (hover: none) and (pointer: coarse){ /* Je change la forme de la page si c'est une tablette ou un smartphone */
 
+    .details {
+        font-size: 1.5vh;
+    }
     .card {
         width: 100%;
     }
@@ -819,6 +827,10 @@ button img {
         margin-top: 0;
     }
     
+    .svg-in-text {
+        width: 2vh;
+        vertical-align: middle;
+    }
     
     
     .Front-panel p{
