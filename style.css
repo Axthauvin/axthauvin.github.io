@@ -117,7 +117,7 @@ article{
     justify-content: center;
     padding-bottom: 10px;
     padding-top: 10px;
-    min-width: 50vh;
+    /*min-width: 50vh; */
 }
 
 section .element .centered h2 {
@@ -142,16 +142,22 @@ section .element .centered h2 {
     display: flex;
     text-align: center;
     justify-content: center;
+    /*
     width: 50vh;
     height: 50vh;
+    */
+
+    width: 40vh;
+    height: 40vh;
+
     position: relative;
 
 }
 .centeredtextonly{
     display: flex;
     text-align: center;
-    width: 50vh;
-    height: 50vh;
+    width: 40vh;
+    height: 40vh;
     position: relative;
 }
 a{
@@ -184,9 +190,11 @@ a{
 
 }
 .little-article h4{
-    padding-top: 50px;
+    padding-top: 2vh;
     font-weight: lighter;
     max-width: 100%;
+    font-size: 2.2vh;
+    
 
 }
 .image{ /* Ici, je met mon image au dessus du texte avec Zindex 2, et la rend possible de supperposer avec position absolute */
@@ -538,6 +546,10 @@ nav {
         overflow-x: hidden;
     }
 
+    .espace-article {
+        margin: 0;
+    }
+
     .nav-links {
 
         position: fixed;
@@ -606,6 +618,12 @@ nav {
     .Espace-cards{
         height: 60vh;
 
+    }
+
+    .element-Projets {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40vh;
     }
 
 
@@ -815,6 +833,16 @@ button img {
 
 @media only screen and (hover: none) and (pointer: coarse){ /* Je change la forme de la page si c'est une tablette ou un smartphone */
 
+    .element-Projets {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40vh;
+        display: block;
+    }
+    .centered2 {
+        margin-bottom: 20px;
+        
+    }
     .details {
         font-size: 1.5vh;
     }
@@ -1364,5 +1392,24 @@ section div h3 {
     margin-top: 10px;
     
 }
+
+.italique {
+    font-style: italic;
+}
+
+
+.upscale {
+    transition:transform 0.25s ease;
+    cursor: pointer;
+}
+
+
+
+
+.upscale:active {
+    /*-webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.75);
+}
+
 
 
