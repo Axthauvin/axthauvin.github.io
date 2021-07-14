@@ -7,8 +7,17 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway&amp;display=swap" rel="stylesheet"> <!--On importe la fpolice Raleway de GoogleFont pour avoir une police originale (ce code est généré par Google pour insérer la police) https://fonts.google.com/specimen/Raleway?preview.text=Test&preview.text_type=custom&query=Raleway-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
     <link rel="icon" href="Images/Axel.png">
+    <link rel="stylesheet" href="./discordInvite.css"/>
   </head>
 
+  <script src="./discordInvite.js"></script>
+  <script>
+  discordInvite.init({
+  inviteCode: 'h48TgnMeMs',
+  title: 'Rejoignez la communauté',
+});
+discordInvite.render();
+</script>
 
   <body>
     <div>
@@ -53,15 +62,14 @@
           <section style="min-height: 30vh; padding-top: 200px;">
             <div class="element">
               <div class="centered">
-                <h2 class="presentation" style="width: 1000px;">ax.thauvin@gmail.com</h2>
+                <h2 class="presentation" style="width: 1000px;">Pour toute suggestion, n'hésitez pas à m'envoyer un mail à  <a class="selected gras" href = "mailto: ax.thauvin@gmail.com">ax.thauvin@gmail.com</a></h2>
               </div>
               
             </div>
 
-            <div class="element">
-              <div class="centered">
-                <iframe src="https://discord.com/widget?id=864810666488758302&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-            </div>
+            
+
+            <div id="discordInviteBox"></div>
 
             
           </section>

@@ -1411,5 +1411,28 @@ section div h3 {
     transform:scale(1.75);
 }
 
+.discord {
+    width: 50%;
+    background-color: #323439;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-left: 10px;
+
+    
+}
+
+.discord img {
+    height: 50px;
+    border-radius: 1rem;
+}
+
+.discord h6 {
+    color: #9b9ea1;
+    font-size: 3vh;
+    text-transform: uppercase;
+}
+
 
 
