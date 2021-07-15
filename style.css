@@ -169,6 +169,10 @@ a{
     font-weight: bold;
     color: #252525;
 }
+
+a.gras {
+    color: #1a1ac0;
+}
 .bandeau{
     z-index: 2;
     position: absolute;
@@ -876,7 +880,7 @@ button img {
     }
 
     .action-social a img {
-        width: 70%;
+        width: 90%;
     }
 
     .langages {
@@ -1433,6 +1437,8 @@ section div h3 {
     font-size: 3vh;
     text-transform: uppercase;
 }
+
+
 
 
 
