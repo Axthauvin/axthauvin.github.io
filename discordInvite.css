@@ -294,5 +294,40 @@
         overflow: visible;
         font-weight: bolder;
     }
+
+    #callToAction-clicked{
+        bottom:0;
+        cursor:pointer;
+        height: 4vh;
+        left:0;
+        position:relative;
+        right:0;
+        top:0;
+        align-self:center;
+        margin:0 0 0 10px;
+        padding:16px 25px;
+        border-radius: 1rem;
+    }
+
+    #joinedDiscord{
+        font-size: 1.75vh;
+        color:#dcddde;
+        cursor:pointer;
+        display:flex;
+        height: 100%;
+        overflow-wrap:break-word;
+        text-align:center;
+        /*font:normal normal 500 normal 14px/20px Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+        overflow: visible;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    #discordSVG {
+        height: 2vh;
+        width: 2vh;
+    }
+
+    
  }
 
