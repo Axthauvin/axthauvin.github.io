@@ -470,6 +470,7 @@ nav {
 }
 .nav-links li a {
     color: aliceblue;
+    font-size: 2.5vh;
 
 }
 
@@ -916,7 +917,7 @@ button img {
     }
 
     .nav-links li a{
-        font-size: 30px;
+        font-size: 2.5vh;
 
         color: white;
     }
