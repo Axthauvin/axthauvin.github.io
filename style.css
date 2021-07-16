@@ -300,6 +300,12 @@ a.gras {
 
 }
 
+.Espace-cards:hover{
+    opacity: 30%;
+    
+
+}
+
 .body-Unity {
     background-color: #000000;
     font-family: 'Raleway','Girassol', Arial;
@@ -470,7 +476,6 @@ nav {
 }
 .nav-links li a {
     color: aliceblue;
-    font-size: 2.5vh;
 
 }
 
@@ -582,7 +587,10 @@ nav {
     .nav-links li a{
 
         color: white;
+        font-size: 2.5vh;
     }
+
+    
 
 
 
@@ -624,6 +632,8 @@ nav {
         height: 60vh;
 
     }
+
+
 
     .element-Projets {
         margin-left: auto;
