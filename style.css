@@ -348,6 +348,9 @@ a.gras {
 
   }
 
+
+
+
 .body-Scratch h5 {
       font-family: 'Josefin Sans', "Raleway";
 
@@ -389,6 +392,47 @@ a.gras {
 .body-Unity a {
     color: aliceblue;
 
+}
+
+.body-Office {
+    background-color: #d73a01;
+    font-family: 'Raleway','Girassol', Arial;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    color: aliceblue;
+}
+
+.body-Office a {
+   
+    color: aliceblue;
+}
+
+.body-Office h1 {
+    font-family: 'Montserrat', "Raleway";
+    font-weight: 200;
+
+
+}
+
+.logo-separator {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.logo-separator div {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-separator div h3 {
+    text-align: center;
+    margin-left: 15px;
 }
 
    .centered-article{
