@@ -1481,13 +1481,16 @@ section div h3 {
     cursor: pointer;
 }
 
+.upscale:hover {opacity: 0.7;}
 
 
-
+/*
 .upscale:active {
-    /*-webkit-transform:scale(1.5); /* or some other value */
+    
     transform:scale(1.75);
 }
+
+*/
 
 .discord {
     width: 50%;
