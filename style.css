@@ -1112,24 +1112,49 @@ button img {
     .body-Scratch h1 {
         font-size: 2vh;
     }
+    .body-Office h1 {
+        font-size: 2vh;
+    
+    
+    }
     .body-Scratch .titles-cat {
+        font-size: 4vh;
+    }
+    .body-Office .titles-cat {
         font-size: 4vh;
     }
     .body-Scratch h3 {
         font-size: 2vh;
     }
+    .body-Office h3 {
+        font-size: 2vh;
+    }
     .body-Scratch p img {
+        width: 100%;
+    }
+    .body-Office p img {
         width: 100%;
     }
 
     .body-Scratch .btn{
         font-size: 2vh;
     }
+    .body-Office .btn{
+        font-size: 2vh;
+    }
     .body-Scratch .btn img {
         height: 1.5vh;
         padding-right: 20px;
     }
+    .body-Office .btn img {
+        height: 1.5vh;
+        padding-right: 20px;
+    }
     .body-Scratch .TitlesCours {
+        font-size: 3vh;
+    
+    }
+    .body-Office .TitlesCours {
         font-size: 3vh;
     
     }
