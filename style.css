@@ -1529,7 +1529,7 @@ section div h3 {
         overflow: auto; /* Enable scroll if needed */
         background-color: rgb(0,0,0); /* Fallback color */
         background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-        height: -webkit-fill-available;
+        height: calc(var(--vh, 1vh) * 92);
         overflow: hidden;
       }
     
