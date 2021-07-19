@@ -933,11 +933,13 @@ button img {
         margin: auto;
         display: block;
         width: 80%;
-        max-width: 700px;
+        max-width: 100%;
         text-align: center;
         color: #ccc;
         padding: 10px 0;
         height: 150px;
+        font-size: 5vh;
+        /*background-color: #272727;*/
         
       }
     
@@ -981,6 +983,10 @@ button img {
     /*.modal {
         /*padding-top: calc(var(--vh, 1vh) * 50);
     }*/
+
+    #caption {
+        font-size: 2vh;
+    }
     .modal-content {
         max-width: 100%;
         margin-top: 50%;
