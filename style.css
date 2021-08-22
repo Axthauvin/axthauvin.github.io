@@ -901,9 +901,98 @@ button img {
      line-height: 1.2;
     }
 
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        /*height: 90%;  Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+        height: calc(var(--vh, 1vh) * 100);
+        overflow: hidden;
+      }
+    
+      /* Modal Content (Image) */
+      .modal-content {
+        margin: auto;
+        display: block;
+        
+        width: 80%;
+        max-width: 700px;
+        
+      }
+    
+      /* Caption of Modal Image (Image Text) - Same Width as the Image */
+      #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 100%;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+        font-size: 5vh;
+        /*background-color: #272727;*/
+        
+      }
+    
+      /* Add Animation - Zoom in the Modal */
+      .modal-content, #caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+      }
+    
+      @keyframes zoom {
+        from {transform:scale(0)}
+        to {transform:scale(1)}
+      }
+    
+      /* The Close Button */
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 10vh;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+    
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    
+      /* 100% Image Width on Smaller Screens */
+      @media only screen and (max-width: 700px){
+        .modal-content {
+          max-width: 100%;
+        }
+      }
 
 @media only screen and (hover: none) and (pointer: coarse){ /* Je change la forme de la page si c'est une tablette ou un smartphone */
+    /*.modal {
+        /*padding-top: calc(var(--vh, 1vh) * 50);
+    }*/
 
+    #caption {
+        font-size: 2vh;
+    }
+    .modal-content {
+        max-width: 100%;
+        margin-top: 50%;
+        width: 95%;
+      }
+    
     .logo-separator div img {
         width: 5vh;
         height: auto;
@@ -1023,25 +1112,55 @@ button img {
     .body-Scratch h1 {
         font-size: 2vh;
     }
+    .body-Office h1 {
+        font-size: 2vh;
+    
+    
+    }
     .body-Scratch .titles-cat {
+        font-size: 4vh;
+    }
+    .body-Office .titles-cat {
         font-size: 4vh;
     }
     .body-Scratch h3 {
         font-size: 2vh;
     }
+    .body-Office h3 {
+        font-size: 2vh;
+    }
     .body-Scratch p img {
+        width: 100%;
+    }
+    .body-Office p img {
         width: 100%;
     }
 
     .body-Scratch .btn{
         font-size: 2vh;
     }
+    .body-Office .btn{
+        font-size: 2vh;
+    }
     .body-Scratch .btn img {
+        height: 1.5vh;
+        padding-right: 20px;
+    }
+    .body-Office .btn img {
         height: 1.5vh;
         padding-right: 20px;
     }
     .body-Scratch .TitlesCours {
         font-size: 3vh;
+    
+    }
+    .body-Office .TitlesCours {
+        font-size: 3vh;
+    
+    }
+
+    .body-Office h4 {
+        font-size: 1.5vh;
     
     }
     .body-Scratch #revenir {
@@ -1481,13 +1600,16 @@ section div h3 {
     cursor: pointer;
 }
 
+.upscale:hover {opacity: 0.7;}
 
 
-
+/*
 .upscale:active {
-    /*-webkit-transform:scale(1.5); /* or some other value */
+    
     transform:scale(1.75);
 }
+
+*/
 
 .discord {
     width: 50%;
@@ -1512,6 +1634,8 @@ section div h3 {
     text-transform: uppercase;
 }
 
+
+    
 
 
 

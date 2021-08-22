@@ -49,7 +49,19 @@
 
           </div>
         </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
 
+          <!-- The Close Button -->
+          <span class="close">&times;</span>
+
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img01">
+
+          <!-- Modal Caption (Image Text) -->
+          <div id="caption"></div>
+
+        </div>
     </nav>
       <main id="page">
         <article>
@@ -95,7 +107,7 @@
               <div class="centered" style="width: 70%; padding-top: 50px;">
                 <div style="display: flex; flex-direction: column">
                   <h1>La suite Office est un ensemble d'applications, qui comprend un logiciel de traitement de textes, de diaporamas, ainsi qu'un tableur. <br><br> La maitriser est aujourd'hui primordial dans le mondre du travail, car elle propose une réeelle efficacité. <br> Pour plus d'informations, regardez le <a href="https://www.microsoft.com/fr-fr/microsoft-365" style="text-decoration : underline;" target="_blank">site d'Office</a> </h1>
-                  <p><img class="upscale" src="Images/OfficesApps/Microsoft_Office_2019-5bd187f6c9e77c0051765409.jpg" width="70%" style="margin-top: 50px; background-color: aliceblue;"></p>
+                  <p><img alt="Voilà un apperçu de ce que permettent les différentes applications" class="upscale" id="im1" onclick="zoom(this.id)" src="Images/OfficesApps/Microsoft_Office_2019-5bd187f6c9e77c0051765409.jpg" width="70%" style="margin-top: 50px; background-color: aliceblue;"></p>
                   <h4 style="font-style: italic; font-weight: normal;" class="sub">Voilà un apperçu de ce que permettent les différentes applications</h4>
                   
                 </div>
@@ -154,3 +166,4 @@
   </body>
 </html>
 <script src="Scripts/script.js"></script>
+<script src="./Scripts/zoom.js"></script>

@@ -9,7 +9,80 @@
   </head>
   
   
- 
+  
+  <style>
+    /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    /*height: 90%;  Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    
+  }
+
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  </style>
   <body>
     <div>
       <header> <!--Ici je mets la tête de page avec le menu-->
@@ -46,6 +119,20 @@
             </div>
           </div>
 
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+
+          </div>
+
       </nav>
         
       <main id="page">
@@ -54,19 +141,26 @@
             <div class="element">
               <div class="centered">
                 <h2 class="presentation" style="width: 70%;">Je suis Axel Thauvin, passionné d'informatique & de programmation. Ici je posterai mes projets, mes ambitions, et mes cours. <br> Vous pouvez aussi trouver dans l'onglet attitré mon Curriculum vitæ</h2>
+                <br>
+                <br>
+                
               </div>
             </div>
           </section>
-          <!--Ici je mets les différents menu à gauche dans un div !<section style="min-height: 10vh; padding-top: 0px;"> Je crée une nouvelle section afin d'y ajouter du contenu, ici ma "biographie"
+          <section style="min-height: 10vh; padding-top: 200px; padding-bottom: 100px;"> <!--Je crée une nouvelle section afin d'y ajouter du contenu, ici ma "biographie"-->
             <div class="element">
               <div class="centered">
-                <h2 class="images-Cours"><img src="Images/Cours/PropositionsCoursImage.png" style="width: 100%;"></h2>
-                <img src="Images/FlechePasser.png" height="50%" class="fleches-passer">
+                
+                <br>
+                <br>
+                <img src="Images/illustrations/DonjonDeNaheulbeuk1.png" alt="Caca" class="upscale" style="width: 75%;" id="im1" onclick="zoom(this.id)">
+
+                
+                
               </div>
-              
             </div>
-            
-          </section> -->
+          </section>
+          
           
         </article>
         
@@ -105,3 +199,5 @@
 
 navSlide();
 </script>
+
+<script src="./Scripts/zoom.js"></script>
